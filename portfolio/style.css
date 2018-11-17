@@ -1,0 +1,132 @@
+html{
+	background:url(background28.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100px;
+}
+
+header{
+	color: tomato;;;
+	display: flex;
+	justify-content: space-around;
+	padding: 50px 5% 0 5%;
+}
+
+header .image{
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 2px 2px 7px 3px #0B173B;
+    margin-bottom: 25px;
+}
+
+header .image img{
+	object-fit: cover;
+    width: 100%;
+    min-height: 100%;
+}
+
+header .title{
+	font-size: 5vw;
+	display: flex;
+	color: dimgray;
+	font-family: 'Gloria Hallelujah' , cursive;
+	align-self: center;
+}
+
+main .content{
+	font-size: 2vw;
+	font-family: 'Orbitron', sans-serif;
+}
+
+main .content li{
+list-style-type: square;
+}
+
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+footer section:first-child{
+	margin-right: 5%;
+}
+
+footer .skills-container,
+footer .info{
+	flex: 50%;
+	max-width: 50%;
+}
+
+/*top*/
+footer .top {
+	display: flex;
+	justify-content: center;
+    color: var(--maincolor);
+}
+
+footer .top h2 {
+	display: flex;
+	justify-content: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 4vw;
+}
+
+/*bottom*/
+footer .skills-container .bottom {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 13px;
+}
+
+footer .bottom .item-skill {
+    background-image: url(background-balance-business-583846.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+
+
+footer .bottom .item-skill p {
+    font-size: 0.8em;
+    padding: 10px;
+    font-weight: 500;
+    color: yellow;
+    text-shadow: 1px 0px 4px black;
+	font-family: 'Satisfy', cursive;
+    word-spacing: 3px;
+}
+
+.stitched {
+    position: relative;
+    padding: 10px;
+    margin: 0px auto;
+    width: 13vw;
+    background: #ff0030;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 0vw;
+    border: 2px dashed #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #ff0030, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+    text-shadow: -1px -1px #aa3030;
+    font-weight: normal;
+}
+
+.stitched p {
+	display: flex;
+	justify-content: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2vw;
+}
