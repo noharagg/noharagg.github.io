@@ -1,5 +1,5 @@
-html{
-	background:url(background28.jpg) no-repeat center center fixed; 
+body{
+	background:url(img/background28.jpg) center center repeat; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -25,7 +25,14 @@ header .image img{
 	object-fit: cover;
     width: 100%;
     min-height: 100%;
+    transition: 0.2s ease-in-out;
 }
+
+.image img:hover{
+ -webkit-transform: scale(2);
+ -moz-transform: scale(2);
+ -o-transform: scale(2);
+ }
 
 header .title{
 	font-size: 5vw;
@@ -42,6 +49,22 @@ main .content{
 
 main .content li{
 list-style-type: square;
+}
+
+
+.swiper-container {
+
+    height: 100%;
+    max-width: 500px;
+    width: 100%;
+}
+
+
+
+.swiper-slide img{
+    width: 100%;
+    object-fit: cover;
+    min-height: 100%;
 }
 
 footer {
@@ -62,6 +85,10 @@ footer .skills-container,
 footer .info{
 	flex: 50%;
 	max-width: 50%;
+}
+.video-youtube{
+    display: flex;
+    justify-content: center;
 }
 
 /*top*/
